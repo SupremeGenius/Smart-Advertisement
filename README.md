@@ -1,20 +1,18 @@
 # Smart-Advertisement
 Through the camera to capture images, recognition of human faces in an image, such as age, sex, and analysis corresponding to push advertising.
 
-##é¡¹ç›®ä»‹ç»:
-
-å—2012å¹´åœ¨ä¼¦æ•¦è¡—å¤´çš„å…¬äº¤ç«™å°å‡ºç°çš„ä¸€ç§æ ¹æ®è·¯äººæ€§åˆ«æ˜¾ç¤ºä¸åŒå†…å®¹çš„[æ™ºèƒ½å¹¿å‘Šç‰Œ](http://goo.gl/90S1J7)å¯å‘ã€‚
-åŒæ—¶åœ¨å­¦æ ¡å®éªŒå®¤æœ‰ç›¸åŒç«‹æ„çš„å›½å®¶åˆ›æ–°é¡¹ç›®ï¼Œæ•…ç»“åˆæ‰€å­¦çš„å›¾åƒå¤„ç†çš„çŸ¥è¯†å’ŒFace++çš„äººè„¸æ•°æ®å¤„ç†å¹³å°å¼€å‘æ­¤é¡¹ç›®ã€‚
-æ™ºèƒ½å¹¿å‘Šç³»ç»Ÿåˆ©ç”¨æˆç†Ÿçš„ç”Ÿç‰©å›¾åƒè¯†åˆ«æŠ€æœ¯å’Œæœºå™¨å­¦ä¹  [(Face++)](http://www.faceplusplus.com.cn) ï¼Œåˆ©ç”¨æ‘„åƒå¤´æ¥æ‰«æå¾—åˆ°äººçš„ä¿¡æ¯ï¼Œé€šè¿‡äº‘ç«¯çš„å›¾åƒè¯†åˆ«å’Œæ•°æ®å­¦ä¹ æ¥æ¨ç®—å‡ºæœ€èƒ½å¸å¼•äººçš„è§†é¢‘æˆ–è€…å›¾ç‰‡ï¼ŒåæœŸå¼€å‘è¿˜å¯ä»¥ç»“åˆVRã€Kinectä½“æ„ŸæŠ€æœ¯æ¥è¿›è¡Œå®æ—¶äº¤äº’ã€‚ä¸ºå¹¿å‘Šå®£æ³¨å…¥æ–°ç”ŸåŠ›é‡ã€‚
-
+##ÏîÄ¿½éÉÜ:
+ÊÜ2012ÄêÔÚÂ×¶Ø½ÖÍ·µÄ¹«½»Õ¾Ì¨³öÏÖµÄÒ»ÖÖ¸ù¾İÂ·ÈËĞÔ±ğÏÔÊ¾²»Í¬ÄÚÈİµÄ[ÖÇÄÜ¹ã¸æÅÆ](http://goo.gl/90S1J7)Æô·¢¡£
+Í¬Ê±ÔÚÑ§Ğ£ÊµÑéÊÒÓĞÏàÍ¬Á¢ÒâµÄ¹ú¼Ò´´ĞÂÏîÄ¿£¬¹Ê½áºÏËùÑ§µÄÍ¼Ïñ´¦ÀíµÄÖªÊ¶ºÍFace++µÄÈËÁ³Êı¾İ´¦ÀíÆ½Ì¨¿ª·¢´ËÏîÄ¿¡£
+ÖÇÄÜ¹ã¸æÏµÍ³ÀûÓÃ³ÉÊìµÄÉúÎïÍ¼ÏñÊ¶±ğ¼¼ÊõºÍ»úÆ÷Ñ§Ï° [(Face++)](http://www.faceplusplus.com.cn) £¬ÀûÓÃÉãÏñÍ·À´É¨ÃèµÃµ½ÈËµÄĞÅÏ¢£¬Í¨¹ıÔÆ¶ËµÄÍ¼ÏñÊ¶±ğºÍÊı¾İÑ§Ï°À´ÍÆËã³ö×îÄÜÎüÒıÈËµÄÊÓÆµ»òÕßÍ¼Æ¬£¬ºóÆÚ¿ª·¢»¹¿ÉÒÔ½áºÏVR¡¢KinectÌå¸Ğ¼¼ÊõÀ´½øĞĞÊµÊ±½»»¥¡£Îª¹ã¸æĞû×¢ÈëĞÂÉúÁ¦Á¿¡£
 
 ##Requirements
  
- - (Emgu 2.4 For Windows)[http://sourceforge.net/projects/emgucv/files/emgucv] 
+ - [Emgu 2.4 For Windows](http://sourceforge.net/projects/emgucv/files/emgucv)
  
- - (FaceppSDK)[https://github.com/buaabarty/facepp-csharp-sdk-beta]
+ - [FaceppSDK](https://github.com/buaabarty/facepp-csharp-sdk-beta)
   
     Use your appkey and appsecret initialize a FaceService
     
- - (OpenCV 2.9 For Windows)[http://opencv.org/downloads.html]
+ - [OpenCV 2.9 For Windows](http://opencv.org/downloads.html)
 
