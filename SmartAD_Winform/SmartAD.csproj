@@ -78,7 +78,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="log4net">
-      <HintPath>..\..\CV\facepp-csharp-sdk-beta-master\log4net.dll</HintPath>
+      <HintPath>..\lib\3rdParty\log4net.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
