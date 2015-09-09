@@ -7,6 +7,7 @@ Through the camera to capture images, recognition of human faces in an image, su
 智能广告系统利用摄像头来扫描得到人的信息，通过云端的图像识别和数据学习来推算出最能吸引人的视频或者图片，后期开发还可以结合VR、Kinect体感技术来进行实时交互。为广告宣注入新生力量。
 
 ##Requirements
+ - Visual Studio 2013 or more
  
  - [Emgu 2.4 For Windows](http://sourceforge.net/projects/emgucv/files/emgucv)
  
