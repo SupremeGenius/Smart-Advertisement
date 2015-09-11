@@ -31,29 +31,16 @@
 		{
 			this.components = new System.ComponentModel.Container();
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SmartAD));
-			this.captureImageBox = new Emgu.CV.UI.ImageBox();
 			this.grayscaleImageBox = new Emgu.CV.UI.ImageBox();
 			this.ADImageBox = new Emgu.CV.UI.ImageBox();
+			this.captureImageBox = new Emgu.CV.UI.ImageBox();
+			this.VideoTextBox = new System.Windows.Forms.TextBox();
+			this.PresentTextBox = new System.Windows.Forms.TextBox();
 			this.startButton = new System.Windows.Forms.Button();
-			((System.ComponentModel.ISupportInitialize)(this.captureImageBox)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.grayscaleImageBox)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.ADImageBox)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.captureImageBox)).BeginInit();
 			this.SuspendLayout();
-			// 
-			// captureImageBox
-			// 
-			this.captureImageBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.captureImageBox.FunctionalMode = Emgu.CV.UI.ImageBox.FunctionalModeOption.Minimum;
-			this.captureImageBox.InitialImage = null;
-			this.captureImageBox.Location = new System.Drawing.Point(457, 346);
-			this.captureImageBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-			this.captureImageBox.Name = "captureImageBox";
-			this.captureImageBox.Size = new System.Drawing.Size(183, 134);
-			this.captureImageBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-			this.captureImageBox.TabIndex = 1;
-			this.captureImageBox.TabStop = false;
 			// 
 			// grayscaleImageBox
 			// 
@@ -65,34 +52,59 @@
 			// 
 			// ADImageBox
 			// 
-			this.ADImageBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
 			this.ADImageBox.FunctionalMode = Emgu.CV.UI.ImageBox.FunctionalModeOption.Minimum;
-			this.ADImageBox.Location = new System.Drawing.Point(0, 0);
+			this.ADImageBox.Location = new System.Drawing.Point(489, 13);
 			this.ADImageBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.ADImageBox.Name = "ADImageBox";
-			this.ADImageBox.Size = new System.Drawing.Size(640, 480);
+			this.ADImageBox.Size = new System.Drawing.Size(139, 89);
 			this.ADImageBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.ADImageBox.TabIndex = 1;
 			this.ADImageBox.TabStop = false;
 			this.ADImageBox.WaitOnLoad = true;
 			// 
+			// captureImageBox
+			// 
+			this.captureImageBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.captureImageBox.FunctionalMode = Emgu.CV.UI.ImageBox.FunctionalModeOption.Minimum;
+			this.captureImageBox.InitialImage = null;
+			this.captureImageBox.Location = new System.Drawing.Point(12, 104);
+			this.captureImageBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.captureImageBox.Name = "captureImageBox";
+			this.captureImageBox.Size = new System.Drawing.Size(469, 361);
+			this.captureImageBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+			this.captureImageBox.TabIndex = 1;
+			this.captureImageBox.TabStop = false;
+			// 
+			// VideoTextBox
+			// 
+			this.VideoTextBox.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.VideoTextBox.Location = new System.Drawing.Point(142, 42);
+			this.VideoTextBox.Name = "VideoTextBox";
+			this.VideoTextBox.Size = new System.Drawing.Size(100, 29);
+			this.VideoTextBox.TabIndex = 2;
+			this.VideoTextBox.Text = "Video";
+			this.VideoTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+			// 
+			// PresentTextBox
+			// 
+			this.PresentTextBox.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.PresentTextBox.Location = new System.Drawing.Point(513, 109);
+			this.PresentTextBox.Name = "PresentTextBox";
+			this.PresentTextBox.Size = new System.Drawing.Size(100, 29);
+			this.PresentTextBox.TabIndex = 3;
+			this.PresentTextBox.Text = "Present";
+			this.PresentTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+			// 
 			// startButton
 			// 
-			this.startButton.AutoSize = true;
-			this.startButton.BackColor = System.Drawing.Color.Cornsilk;
-			this.startButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-			this.startButton.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.startButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.startButton.ForeColor = System.Drawing.Color.White;
-			this.startButton.Image = ((System.Drawing.Image)(resources.GetObject("startButton.Image")));
-			this.startButton.Location = new System.Drawing.Point(0, -10);
+			this.startButton.Location = new System.Drawing.Point(513, 395);
 			this.startButton.Name = "startButton";
-			this.startButton.Size = new System.Drawing.Size(651, 502);
-			this.startButton.TabIndex = 2;
-			this.startButton.UseMnemonic = false;
-			this.startButton.UseVisualStyleBackColor = false;
+			this.startButton.Size = new System.Drawing.Size(115, 33);
+			startButton.TabIndex = 4;
+			startButton.Text = "Start";
+			this.startButton.UseVisualStyleBackColor = true;
 			this.startButton.Click += new System.EventHandler(this.startButton_Click);
 			// 
 			// SmartAD
@@ -104,6 +116,8 @@
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
 			this.ClientSize = new System.Drawing.Size(640, 478);
 			this.Controls.Add(this.startButton);
+			this.Controls.Add(this.PresentTextBox);
+			this.Controls.Add(this.VideoTextBox);
 			this.Controls.Add(this.captureImageBox);
 			this.Controls.Add(this.ADImageBox);
 			this.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -114,18 +128,20 @@
 			this.MaximizeBox = false;
 			this.Name = "SmartAD";
 			this.Text = "SmartAD";
-			((System.ComponentModel.ISupportInitialize)(this.captureImageBox)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.grayscaleImageBox)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.ADImageBox)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.captureImageBox)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
 		}
 
 		#endregion
-		private Emgu.CV.UI.ImageBox captureImageBox;
 		private Emgu.CV.UI.ImageBox grayscaleImageBox;
 		private Emgu.CV.UI.ImageBox ADImageBox;
+		private Emgu.CV.UI.ImageBox captureImageBox;
+		private System.Windows.Forms.TextBox VideoTextBox;
+		private System.Windows.Forms.TextBox PresentTextBox;
 		private System.Windows.Forms.Button startButton;
 	}
 }
