@@ -1,12 +1,13 @@
 # Smart-Advertisement
 Through the camera to capture images, recognition of human faces in an image, such as age, sex, and analysis corresponding to push advertising.
 
-##ÏîÄ¿½éÉÜ:
-ÊÜ2012ÄêÔÚÂ×¶Ø½ÖÍ·µÄ¹«½»Õ¾Ì¨³öÏÖµÄÒ»ÖÖ¸ù¾ÝÂ·ÈËÐÔ±ðÏÔÊ¾²»Í¬ÄÚÈÝµÄ[ÖÇÄÜ¹ã¸æÅÆ](http://goo.gl/90S1J7)Æô·¢¡£
-Í¬Ê±ÔÚÑ§Ð£ÊµÑéÊÒÓÐÏàÍ¬Á¢ÒâµÄ¹ú¼Ò´´ÐÂÏîÄ¿£¬¹Ê½áºÏËùÑ§µÄÍ¼Ïñ´¦ÀíµÄÖªÊ¶ºÍFace++µÄÈËÁ³Êý¾Ý´¦ÀíÆ½Ì¨¿ª·¢´ËÏîÄ¿¡£
-ÖÇÄÜ¹ã¸æÏµÍ³ÀûÓÃÉãÏñÍ·À´É¨ÃèµÃµ½ÈËµÄÐÅÏ¢£¬Í¨¹ýÔÆ¶ËµÄÍ¼ÏñÊ¶±ðºÍÊý¾ÝÑ§Ï°À´ÍÆËã³ö×îÄÜÎüÒýÈËµÄÊÓÆµ»òÕßÍ¼Æ¬£¬ºóÆÚ¿ª·¢»¹¿ÉÒÔ½áºÏVR¡¢KinectÌå¸Ð¼¼ÊõÀ´½øÐÐÊµÊ±½»»¥¡£Îª¹ã¸æÐû×¢ÈëÐÂÉúÁ¦Á¿¡£
+##é¡¹ç›®ä»‹ç»:
+å—2012å¹´åœ¨ä¼¦æ•¦è¡—å¤´çš„å…¬äº¤ç«™å°å‡ºçŽ°çš„ä¸€ç§æ ¹æ®è·¯äººæ€§åˆ«æ˜¾ç¤ºä¸åŒå†…å®¹çš„[æ™ºèƒ½å¹¿å‘Šç‰Œ](http://goo.gl/90S1J7)å¯å‘ã€‚
+åŒæ—¶åœ¨å­¦æ ¡å®žéªŒå®¤æœ‰ç›¸åŒç«‹æ„çš„å›½å®¶åˆ›æ–°é¡¹ç›®ï¼Œæ•…ç»“åˆæ‰€å­¦çš„å›¾åƒå¤„ç†çš„çŸ¥è¯†å’ŒFace++çš„äººè„¸æ•°æ®å¤„ç†å¹³å°å¼€å‘æ­¤é¡¹ç›®ã€‚
+æ™ºèƒ½å¹¿å‘Šç³»ç»Ÿåˆ©ç”¨æ‘„åƒå¤´æ¥æ‰«æå¾—åˆ°äººçš„ä¿¡æ¯ï¼Œé€šè¿‡äº‘ç«¯çš„å›¾åƒè¯†åˆ«å’Œæ•°æ®å­¦ä¹ æ¥æŽ¨ç®—å‡ºæœ€èƒ½å¸å¼•äººçš„è§†é¢‘æˆ–è€…å›¾ç‰‡ã€‚
 
 ##Requirements
+
  - Visual Studio 2013 or more
  
  - [Emgu 2.4 For Windows](http://sourceforge.net/projects/emgucv/files/emgucv)
